@@ -155,14 +155,6 @@ nav ul li a:hover {
   padding-top: 3rem;
 }
 /* right section start */
-.container {
-  display: flex;
-  background-color: #fff;
-  padding: 65px 0;
-  margin-right: 20px;
-  margin: 20px 0px;
-  /* height: 80vh; */
-}
 
 .rightsection img {
   /* width: 70%; */
@@ -203,8 +195,8 @@ nav ul li a:hover {
 }
 .btn:hover {
   transition-duration: 0.6s;
-  background-color: #fff;
-  color: black;
+  background-color: #000000;
+  color: white;
 }
 .btn2:hover {
   transition-duration: 0.6s;
@@ -245,7 +237,7 @@ nav ul li a:hover {
 }
 .secondsection .vertical2 .vertical-title
 {
-  top: 15.5rem;
+  top: 15.9rem;
   position: relative;
   color: #000000;
   right: 13px;
@@ -426,7 +418,7 @@ ul li {
 ul li a {
   text-decoration: none;
   color: #fff;
-  font-weight: bold;
+  font-weight:bold;
   font-size: 0.9rem;
   transition: color 0.3s;
 }
