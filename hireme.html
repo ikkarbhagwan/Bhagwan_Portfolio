@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px black;
+            width: 300px;
+
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border-radius: 5px;
+
+        }
+
+        button {
+            background-color: #22c772;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: black;
+            transition: background-color 300ms  ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <h2>Contact me</h2>
+        <lable for="name">Name:</lable>
+        <input type="text" id="name" name="name" required>
+
+        <label for="Email">E-mail:</label>
+        <input type="text" id="email" name="name" required>
+
+
+        <label for="massage">Message:</label>
+        <textarea id="message" name="name" rows="4" required></textarea>
+
+        <button>Submit</button>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
