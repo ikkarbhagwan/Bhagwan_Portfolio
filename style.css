@@ -227,6 +227,7 @@ nav ul li a:hover {
   width: 1px;
   background-color: black;
   margin: 0 70px;
+  
 }
 .secondsection .vertical2 {
   height: 16rem;
@@ -444,12 +445,6 @@ ul li a:hover {
   }
 }
 
-/* Media Query for smaller screens */
-@media screen and (max-width: 768px) {
-  .footer-content {
-    flex-direction: column;
-  }
-}
 
 /* Responsive design for tablet view */
 @media screen and (max-width: 768px) {
@@ -460,6 +455,20 @@ ul li a:hover {
   .rightsection {
     margin-top: 20px;
   }
+  
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .right1 {
+    margin-top: 20px;
+  }
+  
+  .left1 h2 {
+    font-size: 20px;
+  }
 }
 
 /* Responsive design for mobile view */
@@ -467,30 +476,11 @@ ul li a:hover {
   .leftsection {
     padding: 20px;
   }
-  .rightsection {
-    margin-top: 20px;
-  }
-}
-
-/* Add styles for desktop view here */
-
-/* Responsive design for tablet view */
-@media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+  .rightsection,
   .right1 {
     margin-top: 20px;
   }
-  .left1 h2 {
-    font-size: 26px;
-  }
-}
 
-/* Responsive design for mobile view */
-@media screen and (max-width: 480px) {
   .left1 h2 {
     font-size: 22px;
   }
